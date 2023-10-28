@@ -33,6 +33,7 @@ export const useHttpClient = () => {
         setIsLoading(false);
         return responseData;
       } catch (err) {
+        console.log(err)
         // this one was giving me abort error
         // catch (err) {
         //   setError(err.message);
