@@ -7,7 +7,9 @@ const LoadCard = (props) => {
     <section className="load-card">
       <div className="load-card__auto">
         <h4>{props.model}</h4>
-        <img src={props.image} alt="car" />
+        {/* this doest work due to free server */}
+        {/* <img src={props.image} alt="car" /> */}
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdKu-Y9C8G5fKNK0bIcISAcyzgm5pZeRg_Gw&usqp=CAU" alt="car" />
       </div>
       <div className="load-card__content">
         <div>

@@ -37,7 +37,9 @@ const LoadItem = (props) => {
           </div>
           <div>
             <img
-              src={`${process.env.REACT_APP_ASSET_URL}/${props.image}`}
+              // this is not working due to free server
+              // src={`${process.env.REACT_APP_ASSET_URL}/${props.image}`}
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdKu-Y9C8G5fKNK0bIcISAcyzgm5pZeRg_Gw&usqp=CAU"
               alt="car"
               className="load-item__pick-drop__img"
             />
