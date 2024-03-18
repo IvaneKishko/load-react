@@ -8,8 +8,8 @@
   top: 4rem;
   left: 0;
   width: 100%;
-  height: 450px; 
-  object-fit: cover; 
+  height: 450px;
+  object-fit: cover;
   z-index: -1;
 }
 
@@ -20,7 +20,8 @@
   left: 0;
   width: 100%;
   height: 450px;
-  background: url('https://www.centraldispatch.com/images/responsive/homepage-hero.png') no-repeat center center;
+  background: url("https://www.centraldispatch.com/images/responsive/homepage-hero.png")
+    no-repeat center center;
   background-size: cover;
   z-index: -1;
 }
@@ -77,10 +78,10 @@
   .main-section__content {
     gap: 0rem;
   }
-  .main-section__content-roles{
+  .main-section__content-roles {
     gap: 1rem;
   }
-  .main-section__image{
+  .main-section__image {
     height: 620px;
   }
 }

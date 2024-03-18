@@ -11,29 +11,21 @@ const InfoSection = () => {
           <div className="info-section__card-text">
             <h3>How it Works? - Clients</h3>
             <p>
-              <span className="span-bold">Sign Up</span> - Create your free
-              account to get started.
+              Ready to move your cargo or automobile hassle-free?
               <br />
-              <span className="span-bold">Post Your Load</span> - List your
-              cargo or automobile details, including pick-up and drop-off
-              locations, weight, and contact info.
               <br />
-              <span className="span-bold">Wait for Transporters</span> -
-              Transportation companies will contact you in the matter of minutes
-              <br />
-              <span className="span-bold">Review Offers</span> - Transporters
-              interested in your listing will contact you. Discuss terms and
-              make your choice.
-              <br />
-              <span className="span-bold">Schedule</span> - Transportation:
-              Coordinate pickup and delivery dates with your chosen transporter.
-              Your Items Are On The
-              <br />
-              <span className="span-bold">Move</span> - Track your cargo or
-              automobile until it safely reaches its destination.
+              Look no further! Our streamlined platform allows you to
+              effortlessly upload your cargo or car details, including pickup
+              and drop-off locations, weight, and contact information.
+              Experience peace of mind as our network of trusted transporters
+              swiftly responds with competitive offers. Get started today and
+              enjoy seamless shipping from start to finish!
             </p>
           </div>
-          <img src={truck} alt="truck" />
+          <img
+            src="https://howtostartanllc.com/images/business-ideas/business-idea-images/tractor-trailer-business.jpg"
+            alt="truck"
+          />
         </div>
         <div className="info-section__card">
           <div className="info-section__card-text">
@@ -41,16 +33,14 @@ const InfoSection = () => {
               How it Works? - <span className="span-bold">Transporters</span>
             </h3>
             <p>
-              <span className="span-bold">Sign Up</span> - Create your free
-              account to get started.
+              Join Us Today! Sign Up: Create your free account.
               <br />
-              <span className="span-bold">Discover Premium Loads</span> - Explore the best transportation opportunities in your vicinity with our advanced filter capabilities. Ensure seamless logistics by selecting the ideal loads for your needs.
               <br />
-              <span className="span-bold">Engage with Clients</span> - Foster meaningful connections by seamlessly reaching out to clients at your
-              <br />
-              <span className="span-bold">Schedule Transportation</span> - Optimize your transportation plans by effortlessly coordinating pickup and delivery dates with clients.
-              <br />
-              <span className="span-bold">Transport with Confidence</span> - Monitor your consignments in real-time, ensuring each shipment arrives at its destination securely and on time.
+              Discover Loads:Explore premium transportation opportunities
+              nearby. Engage with Clients: Reach out seamlessly. Schedule
+              Transportation: Coordinate pickups and deliveries effortlessly.
+              Transport with Confidence: Monitor shipments in real-time.
+              Revolutionize your transportation experience now!
             </p>
           </div>
           <img src={truck} alt="truck" />
